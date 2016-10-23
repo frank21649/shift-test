@@ -303,6 +303,25 @@
 			path = shifter;
 			sourceTree = "<group>";
 		};
+		4325E7041DBC6EAA00735D7A /* Story Board */ = {
+			isa = PBXGroup;
+			children = (
+				43173E101D5328620043399F /* LaunchScreen.storyboard */,
+				43173E0B1D5328620043399F /* Main.storyboard */,
+			);
+			name = "Story Board";
+			sourceTree = "<group>";
+		};
+		4325E7051DBC6EC900735D7A /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4326143E1DACCD4D0080AD10 /* DateTableViewCell.xib */,
+				432614371DABC64C0080AD10 /* TextInputTableViewCell.xib */,
+				04BCE1251DB470EF004A8162 /* DatePickerCell.xib */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
 		437831781DBC537E005704DD /* Bulletin */ = {
 			isa = PBXGroup;
 			children = (
@@ -386,11 +405,8 @@
 		43C8BEDA1DBB57AE00137E31 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				43173E0B1D5328620043399F /* Main.storyboard */,
-				43173E101D5328620043399F /* LaunchScreen.storyboard */,
-				4326143E1DACCD4D0080AD10 /* DateTableViewCell.xib */,
-				432614371DABC64C0080AD10 /* TextInputTableViewCell.xib */,
-				04BCE1251DB470EF004A8162 /* DatePickerCell.xib */,
+				4325E7041DBC6EAA00735D7A /* Story Board */,
+				4325E7051DBC6EC900735D7A /* Custom Cell */,
 			);
 			name = Views;
 			sourceTree = "<group>";
