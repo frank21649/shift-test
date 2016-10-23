@@ -57,6 +57,7 @@
 		43778AD71D6ECDDB00D74478 /* BulletinCompose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43778AD61D6ECDDB00D74478 /* BulletinCompose.swift */; };
 		4385DD4A1D97B8C200FDD811 /* NotificationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385DD491D97B8C200FDD811 /* NotificationDetail.swift */; };
 		43D2EDBC1DAF95AB00E5133E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D2EDBB1DAF95AB00E5133E /* TabBarViewController.swift */; };
+		43D8620F1DBCA34D002D61F4 /* world.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D8620E1DBCA34D002D61F4 /* world.swift */; };
 		CDCF55F9FA1EE4396F39383B /* Pods_shifter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 735680C7B9CA8A9AB24F547B /* Pods_shifter.framework */; };
 /* End PBXBuildFile section */
 
@@ -133,6 +134,7 @@
 		43778AD61D6ECDDB00D74478 /* BulletinCompose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BulletinCompose.swift; sourceTree = "<group>"; };
 		4385DD491D97B8C200FDD811 /* NotificationDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationDetail.swift; sourceTree = "<group>"; };
 		43D2EDBB1DAF95AB00E5133E /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		43D8620E1DBCA34D002D61F4 /* world.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = world.swift; sourceTree = "<group>"; };
 		735680C7B9CA8A9AB24F547B /* Pods_shifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F47A4D01FED2182C3E71B5 /* Pods-shifter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shifter.release.xcconfig"; path = "Pods/Target Support Files/Pods-shifter/Pods-shifter.release.xcconfig"; sourceTree = "<group>"; };
 		DF887F1EFBBF18CB0BFB310D /* Pods-shifter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shifter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shifter/Pods-shifter.debug.xcconfig"; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 			isa = PBXGroup;
 			children = (
 				432C0DE81DBC79A100966DBE /* test1.swift */,
+				43D8620E1DBCA34D002D61F4 /* world.swift */,
 				43173E061D5328620043399F /* shifter */,
 				43173E051D5328620043399F /* Products */,
 				237C6B846E36FF82684AC830 /* Pods */,
@@ -574,6 +577,7 @@
 				04BCE1311DB490B9004A8162 /* ShiftEmployeeTableViewCell.swift in Sources */,
 				04852D321DB37F9700229CAE /* MSWeekViewDecoratorFactory.m in Sources */,
 				04BCE1361DB496D1004A8162 /* addEventTableViewController.swift in Sources */,
+				43D8620F1DBCA34D002D61F4 /* world.swift in Sources */,
 				04852D301DB37F9700229CAE /* MSWeekViewDecorator.m in Sources */,
 				43778AD71D6ECDDB00D74478 /* BulletinCompose.swift in Sources */,
 				04852D2B1DB37F9700229CAE /* MSEvent.m in Sources */,
