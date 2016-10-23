@@ -52,6 +52,7 @@
 		4326143F1DACCD4D0080AD10 /* DateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4326143D1DACCD4D0080AD10 /* DateTableViewCell.swift */; };
 		432614401DACCD4D0080AD10 /* DateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4326143E1DACCD4D0080AD10 /* DateTableViewCell.xib */; };
 		432687341D83DD2A003BD479 /* TextInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432687331D83DD2A003BD479 /* TextInputTableViewCell.swift */; };
+		432C0DE91DBC79A100966DBE /* test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432C0DE81DBC79A100966DBE /* test1.swift */; };
 		435AD28A1D693D79000E38DA /* BulletinDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435AD2891D693D79000E38DA /* BulletinDetail.swift */; };
 		43778AD71D6ECDDB00D74478 /* BulletinCompose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43778AD61D6ECDDB00D74478 /* BulletinCompose.swift */; };
 		4385DD4A1D97B8C200FDD811 /* NotificationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385DD491D97B8C200FDD811 /* NotificationDetail.swift */; };
@@ -127,6 +128,7 @@
 		4326143D1DACCD4D0080AD10 /* DateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTableViewCell.swift; sourceTree = "<group>"; };
 		4326143E1DACCD4D0080AD10 /* DateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateTableViewCell.xib; sourceTree = "<group>"; };
 		432687331D83DD2A003BD479 /* TextInputTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInputTableViewCell.swift; sourceTree = "<group>"; };
+		432C0DE81DBC79A100966DBE /* test1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test1.swift; sourceTree = "<group>"; };
 		435AD2891D693D79000E38DA /* BulletinDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BulletinDetail.swift; sourceTree = "<group>"; };
 		43778AD61D6ECDDB00D74478 /* BulletinCompose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BulletinCompose.swift; sourceTree = "<group>"; };
 		4385DD491D97B8C200FDD811 /* NotificationDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationDetail.swift; sourceTree = "<group>"; };
@@ -273,6 +275,7 @@
 		43173DFB1D5328620043399F = {
 			isa = PBXGroup;
 			children = (
+				432C0DE81DBC79A100966DBE /* test1.swift */,
 				43173E061D5328620043399F /* shifter */,
 				43173E051D5328620043399F /* Products */,
 				237C6B846E36FF82684AC830 /* Pods */,
@@ -557,6 +560,7 @@
 				04852D291DB37F9700229CAE /* MSDayColumnHeaderBackground.m in Sources */,
 				04852D281DB37F9700229CAE /* MSDayColumnHeader.m in Sources */,
 				04852D331DB37F9700229CAE /* MSWeekViewDecoratorInfinite.m in Sources */,
+				432C0DE91DBC79A100966DBE /* test1.swift in Sources */,
 				04BCE1201DB46AB4004A8162 /* EmployeeEventWeekViewController.swift in Sources */,
 				4385DD4A1D97B8C200FDD811 /* NotificationDetail.swift in Sources */,
 				432687341D83DD2A003BD479 /* TextInputTableViewCell.swift in Sources */,
