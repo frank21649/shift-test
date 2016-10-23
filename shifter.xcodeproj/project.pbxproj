@@ -40,13 +40,11 @@
 		04BCE13A1DB49934004A8162 /* employeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BCE1391DB49934004A8162 /* employeeCell.swift */; };
 		04EAAE821DBB49FD00AB7853 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04EAAE811DBB49FD00AB7853 /* GoogleService-Info.plist */; };
 		430738C71D59E108006F749A /* LoginViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430738C61D59E108006F749A /* LoginViewContoller.swift */; };
-		431022181D5F76F200C47D22 /* ShiftSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431022171D5F76F200C47D22 /* ShiftSchedule.swift */; };
 		4310221A1D5F791A00C47D22 /* Bulletin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431022191D5F791A00C47D22 /* Bulletin.swift */; };
 		4310221E1D60D6EB00C47D22 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4310221D1D60D6EB00C47D22 /* Notification.swift */; };
 		431022201D60E07800C47D22 /* ClockIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4310221F1D60E07800C47D22 /* ClockIn.swift */; };
 		431022221D60E8F400C47D22 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431022211D60E8F400C47D22 /* Settings.swift */; };
 		43173E081D5328620043399F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43173E071D5328620043399F /* AppDelegate.swift */; };
-		43173E0A1D5328620043399F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43173E091D5328620043399F /* ViewController.swift */; };
 		43173E0D1D5328620043399F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43173E0B1D5328620043399F /* Main.storyboard */; };
 		43173E0F1D5328620043399F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43173E0E1D5328620043399F /* Assets.xcassets */; };
 		43173E121D5328620043399F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43173E101D5328620043399F /* LaunchScreen.storyboard */; };
@@ -115,14 +113,12 @@
 		04BCE1391DB49934004A8162 /* employeeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = employeeCell.swift; sourceTree = "<group>"; };
 		04EAAE811DBB49FD00AB7853 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		430738C61D59E108006F749A /* LoginViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewContoller.swift; sourceTree = "<group>"; };
-		431022171D5F76F200C47D22 /* ShiftSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiftSchedule.swift; sourceTree = "<group>"; };
 		431022191D5F791A00C47D22 /* Bulletin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bulletin.swift; sourceTree = "<group>"; };
 		4310221D1D60D6EB00C47D22 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		4310221F1D60E07800C47D22 /* ClockIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockIn.swift; sourceTree = "<group>"; };
 		431022211D60E8F400C47D22 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		43173E041D5328620043399F /* shifter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shifter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43173E071D5328620043399F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43173E091D5328620043399F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43173E0C1D5328620043399F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43173E0E1D5328620043399F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43173E111D5328620043399F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -302,33 +298,87 @@
 				04852CFC1DB37F9700229CAE /* Lib */,
 				43C8BED91DBB578800137E31 /* VIew Controllers */,
 				43C8BEDA1DBB57AE00137E31 /* Views */,
-				04BCE13C1DB4BBE2004A8162 /* Shift Schedule */,
 				43173E0E1D5328620043399F /* Assets.xcassets */,
 			);
 			path = shifter;
+			sourceTree = "<group>";
+		};
+		437831781DBC537E005704DD /* Bulletin */ = {
+			isa = PBXGroup;
+			children = (
+				431022191D5F791A00C47D22 /* Bulletin.swift */,
+				435AD2891D693D79000E38DA /* BulletinDetail.swift */,
+				43778AD61D6ECDDB00D74478 /* BulletinCompose.swift */,
+			);
+			name = Bulletin;
+			sourceTree = "<group>";
+		};
+		437831791DBC539E005704DD /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04BCE1391DB49934004A8162 /* employeeCell.swift */,
+				4326143D1DACCD4D0080AD10 /* DateTableViewCell.swift */,
+				432687331D83DD2A003BD479 /* TextInputTableViewCell.swift */,
+				04BCE1231DB470E7004A8162 /* DatePickerCell.swift */,
+				04BCE12E1DB490A1004A8162 /* ConditionTableViewCell.swift */,
+				04BCE1301DB490B9004A8162 /* ShiftEmployeeTableViewCell.swift */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		4378317A1DBC53AB005704DD /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				4310221D1D60D6EB00C47D22 /* Notification.swift */,
+				4385DD491D97B8C200FDD811 /* NotificationDetail.swift */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		4378317B1DBC53B8005704DD /* Clock In */ = {
+			isa = PBXGroup;
+			children = (
+				4310221F1D60E07800C47D22 /* ClockIn.swift */,
+			);
+			name = "Clock In";
+			sourceTree = "<group>";
+		};
+		4378317C1DBC53C3005704DD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				431022211D60E8F400C47D22 /* Settings.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		4378317D1DBC53D3005704DD /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				43D2EDBB1DAF95AB00E5133E /* TabBarViewController.swift */,
+			);
+			name = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		4378317E1DBC53DB005704DD /* Log In */ = {
+			isa = PBXGroup;
+			children = (
+				430738C61D59E108006F749A /* LoginViewContoller.swift */,
+			);
+			name = "Log In";
 			sourceTree = "<group>";
 		};
 		43C8BED91DBB578800137E31 /* VIew Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				43173E071D5328620043399F /* AppDelegate.swift */,
-				43173E091D5328620043399F /* ViewController.swift */,
-				430738C61D59E108006F749A /* LoginViewContoller.swift */,
-				43D2EDBB1DAF95AB00E5133E /* TabBarViewController.swift */,
-				431022171D5F76F200C47D22 /* ShiftSchedule.swift */,
-				431022191D5F791A00C47D22 /* Bulletin.swift */,
-				435AD2891D693D79000E38DA /* BulletinDetail.swift */,
-				43778AD61D6ECDDB00D74478 /* BulletinCompose.swift */,
-				4326143D1DACCD4D0080AD10 /* DateTableViewCell.swift */,
-				432687331D83DD2A003BD479 /* TextInputTableViewCell.swift */,
-				4310221D1D60D6EB00C47D22 /* Notification.swift */,
-				4385DD491D97B8C200FDD811 /* NotificationDetail.swift */,
-				4310221F1D60E07800C47D22 /* ClockIn.swift */,
-				431022211D60E8F400C47D22 /* Settings.swift */,
-				04BCE1231DB470E7004A8162 /* DatePickerCell.swift */,
-				04BCE12E1DB490A1004A8162 /* ConditionTableViewCell.swift */,
-				04BCE1301DB490B9004A8162 /* ShiftEmployeeTableViewCell.swift */,
-				04BCE1391DB49934004A8162 /* employeeCell.swift */,
+				4378317E1DBC53DB005704DD /* Log In */,
+				4378317D1DBC53D3005704DD /* Tab Bar */,
+				437831781DBC537E005704DD /* Bulletin */,
+				04BCE13C1DB4BBE2004A8162 /* Shift Schedule */,
+				437831791DBC539E005704DD /* Custom Cell */,
+				4378317A1DBC53AB005704DD /* Notification */,
+				4378317B1DBC53B8005704DD /* Clock In */,
+				4378317C1DBC53C3005704DD /* Settings */,
 			);
 			name = "VIew Controllers";
 			sourceTree = "<group>";
@@ -489,12 +539,10 @@
 			files = (
 				04852D261DB37F9700229CAE /* MSCurrentTimeGridline.m in Sources */,
 				04852D291DB37F9700229CAE /* MSDayColumnHeaderBackground.m in Sources */,
-				43173E0A1D5328620043399F /* ViewController.swift in Sources */,
 				04852D281DB37F9700229CAE /* MSDayColumnHeader.m in Sources */,
 				04852D331DB37F9700229CAE /* MSWeekViewDecoratorInfinite.m in Sources */,
 				04BCE1201DB46AB4004A8162 /* EmployeeEventWeekViewController.swift in Sources */,
 				4385DD4A1D97B8C200FDD811 /* NotificationDetail.swift in Sources */,
-				431022181D5F76F200C47D22 /* ShiftSchedule.swift in Sources */,
 				432687341D83DD2A003BD479 /* TextInputTableViewCell.swift in Sources */,
 				04BCE12F1DB490A1004A8162 /* ConditionTableViewCell.swift in Sources */,
 				04852D341DB37F9700229CAE /* MSWeekViewDecoratorNewEvent.m in Sources */,
