@@ -1,5 +1,5 @@
 //
-//  test1.swift
+//  hello.swift
 //  shifter
 //
 //  Created by Frank Wang on 2016/10/23.
